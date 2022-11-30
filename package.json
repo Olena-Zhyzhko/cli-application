@@ -1,0 +1,29 @@
+{
+  "name": "cli-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olena-Zhyzhko/CLI-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olena-Zhyzhko/CLI-app/issues"
+  },
+  "homepage": "https://github.com/Olena-Zhyzhko/CLI-app#readme",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
