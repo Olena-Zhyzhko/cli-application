@@ -43,6 +43,10 @@ async function removeContact(contactId) {
 }
 
 async function addContact(name, email, phone) {
+        if (!name || !email || !phone) {
+            return console.log("All fields are required")
+        }
+
     try {
         const contacts = await listContacts();
         const newContact = {
